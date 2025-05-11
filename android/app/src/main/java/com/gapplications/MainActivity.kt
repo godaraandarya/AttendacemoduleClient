@@ -1,4 +1,4 @@
-package com.gapplications
+package com.gaintelli.iotdashboard
 
 import com.facebook.react.ReactActivity
 import com.facebook.react.ReactActivityDelegate

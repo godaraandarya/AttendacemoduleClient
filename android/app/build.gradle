@@ -1,6 +1,8 @@
 apply plugin: "com.android.application"
 apply plugin: "org.jetbrains.kotlin.android"
 apply plugin: "com.facebook.react"
+apply from: "../../node_modules/react-native-vector-icons/fonts.gradle"
+apply plugin: "com.google.gms.google-services" // Apply Google services plugin
 
 /**
  * This is the configuration block to customize your React Native Android app.
@@ -77,9 +79,9 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace "com.gapplications"
+    namespace "com.gaintelli.iotdashboard"
     defaultConfig {
-        applicationId "com.gapplications"
+        applicationId "com.gaintelli.iotdashboard"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
@@ -116,4 +118,13 @@ dependencies {
     } else {
         implementation jscFlavor
     }
+
+      // Firebase BoM (Bill of Materials) to manage versions
+    implementation platform('com.google.firebase:firebase-bom:33.12.0')
+    implementation project(':react-native-fs')
+
+    // Firebase Analytics
+    implementation 'com.google.firebase:firebase-analytics'
+    implementation 'com.google.android.gms:play-services-auth'
+    
 }

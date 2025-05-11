@@ -1,0 +1,11 @@
+{
+  "enabled": true,
+  "prefabPath": "/Users/prashant/.gradle/caches/modules-2/files-2.1/com.google.prefab/cli/2.1.0/aa32fec809c44fa531f01dcfb739b5b3304d3050/cli-2.1.0-all.jar",
+  "packages": [
+    "/Users/prashant/Documents/Attendance/Gapplications/node_modules/react-native-vision-camera/android/build/intermediates/prefab_package/debug/prefab",
+    "/Users/prashant/.gradle/caches/8.12/transforms/be184fb3210540404fd863f04c1e75a4/transformed/react-android-0.78.2-debug/prefab",
+    "/Users/prashant/Documents/Attendance/Gapplications/node_modules/react-native-reanimated/android/build/intermediates/prefab_package/debug/prefab",
+    "/Users/prashant/.gradle/caches/8.12/transforms/1a2e1d0d43580ca5ffbb07f7df776d59/transformed/hermes-android-0.78.2-debug/prefab",
+    "/Users/prashant/.gradle/caches/8.12/transforms/884ef1284853c9ca940e1bf1962452c1/transformed/fbjni-0.7.0/prefab"
+  ]
+}

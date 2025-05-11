@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "866694245157",
+    "firebase_url": "https://ga-intelli-default-rtdb.firebaseio.com",
+    "project_id": "ga-intelli",
+    "storage_bucket": "ga-intelli.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:866694245157:android:f82661853b89c3b9a688cc",
+        "android_client_info": {
+          "package_name": "com.gaintelli.iotdashboard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "866694245157-5bvgngovq2us9531qr8dbfmp5u0hk3kv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gaintelli.iotdashboard",
+            "certificate_hash": "053ea0642b809e41eb9c9ef0cc8299377dc5bcf4"
+          }
+        },
+        {
+          "client_id": "866694245157-rpl76iutkr7m8e00v5tad6leq2j5ohak.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYQo3r0PnvrSuhi0xeSwepovXV1Lrnq5I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "866694245157-rpl76iutkr7m8e00v5tad6leq2j5ohak.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

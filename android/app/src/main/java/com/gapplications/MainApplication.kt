@@ -1,4 +1,4 @@
-package com.gapplications
+package com.gaintelli.iotdashboard
 
 import android.app.Application
 import com.facebook.react.PackageList
